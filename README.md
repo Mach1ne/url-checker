@@ -47,13 +47,13 @@ url-checker --input ips.txt --threads 5 --retries 2 --delay 1
 
 ## Arguments
 
---input, -i — read targets from file
---output, -o — save results to file
---timeout — request timeout (default: 5)
---threads — number of worker threads (1–50)
---retries — number of retries after failure
---delay — delay between retries (seconds)
---only-200 — show only HTTP 200 responses
+- `--input`, `-i` — read targets from file
+- `--output`, `-o` — save results to file
+- `--timeout` — request timeout (default: 5)
+- `--threads` — number of worker threads (1–50)
+- `--retries` — number of retries after failure
+- `--delay` — delay between retries (seconds)
+- `--only-200` — show only HTTP 200 responses
 
 
 ## Output
@@ -68,5 +68,5 @@ https://badsite.example → ERROR (ConnectionError: ...)
 
 ## Notes
 
-Targets without http:// or https:// may return an error
-Large number of threads may affect system/network performance
+- Targets without `http://` or `https://` may return an error
+- Large number of threads may affect system/network performance
