@@ -1,6 +1,7 @@
+![Python](https://img.shields.io/badge/python-3.x-blue)
 # URL Checker
 
-Simple CLI tool to check URLs and IP targets.
+Simple installable CLI tool for checking URLs and IP targets with threading, retries, and delay support.
 
 ## Features
 
