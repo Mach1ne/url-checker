@@ -1,0 +1,5 @@
+Metadata-Version: 2.4
+Name: url-checker
+Version: 0.1.0
+Summary: Simple URL checker CLI tool
+Requires-Dist: requests

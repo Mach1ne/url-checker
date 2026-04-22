@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+url_checker/cli.py
+url_checker/core.py
+url_checker.egg-info/PKG-INFO
+url_checker.egg-info/SOURCES.txt
+url_checker.egg-info/dependency_links.txt
+url_checker.egg-info/entry_points.txt
+url_checker.egg-info/requires.txt
+url_checker.egg-info/top_level.txt

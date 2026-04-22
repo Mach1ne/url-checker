@@ -1,0 +1,8 @@
+[project]
+name = "url-checker"
+version = "0.1.0"
+description = "Simple URL checker CLI tool"
+dependencies = ["requests"]
+
+[project.scripts]
+url-checker = "url_checker.cli:main"

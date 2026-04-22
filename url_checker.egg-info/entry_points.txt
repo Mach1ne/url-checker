@@ -1,0 +1,2 @@
+[console_scripts]
+url-checker = url_checker.cli:main
